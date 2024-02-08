@@ -1,6 +1,6 @@
 ```javascript
-var assert = require('assert')
-var satisfies = require('spdx-satisfies')
+const assert = require('assert')
+const satisfies = require('@metamask/spdx-satisfies')
 
 assert(satisfies('MIT', 'MIT'))
 

@@ -1,7 +1,7 @@
 {
-  "name": "spdx-satisfies",
+  "name": "@metamask/spdx-satisfies",
   "description": "test whether SPDX expressions satisfy licensing criteria",
-  "version": "5.0.1",
+  "version": "6.0.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com)",
   "contributors": [
     "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com)",
@@ -29,7 +29,14 @@
     "standards"
   ],
   "license": "MIT",
-  "repository": "kemitchell/spdx-satisfies.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/spdx-satisfies.js"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "files": [
     "index.js"
   ],
